@@ -4,6 +4,9 @@ import EmployeeDashboard from "./components/Dashboard/EmployeeDashboard";
 import AdminDashboard from "./components/Dashboard/AdminDashboard";
 import { getLocalStorage, setLocalStorage } from "./utils/localStorage";
 const App = () => {
+
+const [] = useState();  
+  
   useEffect(() => {
     setLocalStorage();
     getLocalStorage();
