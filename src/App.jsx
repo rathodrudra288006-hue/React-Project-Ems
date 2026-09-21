@@ -5,7 +5,7 @@ import AdminDashboard from "./components/Dashboard/AdminDashboard";
 import { getLocalStorage, setLocalStorage } from "./utils/localStorage";
 const App = () => {
 
-const [] = useState();  
+const [user,setuser] = useState(null);  
   
   useEffect(() => {
     setLocalStorage();
